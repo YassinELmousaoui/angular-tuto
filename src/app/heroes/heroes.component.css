@@ -7,35 +7,38 @@
     margin: 0 auto 2em auto;
     list-style-type: none;
     padding: 0;
-    width: 20em;
+    width: 25em;
   }
 .heroes li {
     cursor: pointer;
     position: relative;
-    left: 0;
-    background-color: #EEE;
+    
+  }
+  .heroes li:hover {
+    left: .1em;
+  }
+  .heroes a {
+    color: #333;
+    text-decoration: none;
+    background-color: #d3d2d2;
     margin: .5em;
     padding: .3em 0;
     height: 1.6em;
     border-radius: 4px;
+    display: block;
+    width: 100%;
   }
-  .heroes li:hover {
+  
+  .heroes a:hover {
     color: #2c3a41;
     background-color: #e6e6e6;
-    left: .1em;
   }
-  .heroes li.selected {
-    background-color: black;
-    color: white;
+  
+  .heroes a:active {
+    background-color: #525252;
+    color: #fafafa;
   }
-  .heroes li.selected:hover {
-    background-color: #505050;
-    color: white;
-  }
-  .heroes li.selected:active {
-    background-color: black;
-    color: white;
-  }
+  
   .heroes .badge {
     display: inline-block;
     font-size: small;

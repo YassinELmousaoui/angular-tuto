@@ -42,3 +42,22 @@ label {
         font-weight: 100;
         font-size: 16px;
   }
+
+ 
+  button {
+    margin-top: 15px;
+    background-color: #d3d2d2;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 200px;
+    border: none;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
